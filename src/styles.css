@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+	background-color: black;
+	color: #00FF00;
+    line-height: 1.2;
+}
+.typing_animation {
+	width: 20ch;	/* 文字の長さ */
+	border-right: 5px solid #000;	/*点滅バー*/
+	overflow: hidden;	/*必須*/
+	white-space: nowrap;	/*必須*/
+	color: #00FF00;
+	/* font-size:4.0rem; */
+	/* line-height:1.4; */
+	/* font-weight:700; */
+	animation: typing 2s steps(50), blink .4s step-end infinite alternate;	/*アニメーション関連*/
+}
+@keyframes typing {
+	from {
+		width: 0;
+	}
+}
+
+/*文字列後ろの線の設定*/
+.text_typing::after {
+  content: "↓";
+  animation: typinganime .8s ease infinite;
+}
+
+@keyframes typinganime{
+  from{opacity:0}
+  to{opacity:1}
+}
+
+.typing_input {
+  background-color: black;
+  color: #00FF00;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  outline: none;
+}
+
