@@ -1,3 +1,24 @@
 <div class="typing_animation">{{title}}</div>
-<div class="typing_animation text_typing">ccv blog...Sample Txt...</div>
-<input class="typing_input" type="text" id="first_focus" required>
+<div class="typing_animation">{{options}}</div>
+
+	<div class="typing_animation">{{question_meg}}
+	<input class="typing_input" type="text" id="first_focus" [(ngModel)]="select_number"
+		(keydown.enter)="onEnter()" required></div>
+	<ng-container *ngIf="enter_flg_1">
+		<app-profile></app-profile>
+	</ng-container>
+	<ng-container *ngIf="enter_flg_2">
+		<app-skill></app-skill>
+	</ng-container>
+	<ng-container *ngIf="enter_flg_3">
+		<app-portfolio></app-portfolio>
+	</ng-container>
+	<ng-container *ngIf="enter_flg_4">
+		<app-background-information></app-background-information>
+	</ng-container>
+	<ng-container *ngIf="enter_flg_5">
+		<app-contact></app-contact>
+	</ng-container>
+	<ng-container *ngIf="enter_flg_err">
+		{{err_meg}}
+	</ng-container>
