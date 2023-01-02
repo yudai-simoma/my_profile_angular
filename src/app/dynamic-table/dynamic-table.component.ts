@@ -38,6 +38,10 @@ export class DynamicTableComponent implements AfterViewInit {
       return;
     }
     this.input_flg = true;
+    if (this.select_number == "42") {
+      document.location.href = "https://42tokyo.jp/";
+      return;
+    }
     this.appComponent.add_dynamic();
     if (this.select_number == "1") {
       this.enter_flg_1 = true;
@@ -57,10 +61,6 @@ export class DynamicTableComponent implements AfterViewInit {
     }
     if (this.select_number == "5") {
       this.enter_flg_5 = true;
-      return;
-    }
-    if (this.select_number == "42") {
-      document.location.href = "https://42tokyo.jp/";
       return;
     }
     if (this.select_number == "") {
