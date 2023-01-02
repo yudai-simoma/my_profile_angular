@@ -3,28 +3,24 @@ body {
 	color: #00FF00;
     line-height: 1.2;
 }
-
 .Header1 {
 	position: fixed;
-	top: 0;
+	top: 1px;
 	left: auto;
 	background-color: black;
 	z-index: 1;
 	padding-bottom: 10px;
 }
-
 .Header2 {
 	position: fixed;
-	top: 21px;
+	top: 20px;
 	left: auto;
 	background-color: black;
 	z-index: 1;
 }
-
 .top {
-	margin-top: 43px;
+	margin-top: 42px;
 }
-
 .typing_animation {
 	width: 100%;	/* 文字の長さ */
 	border-right: 5px solid #000;	/*点滅バー*/
@@ -41,18 +37,6 @@ body {
 		width: 0;
 	}
 }
-
-/*文字列後ろの線の設定*/
-/* .text_typing::after {
-  content: "↓";
-  animation: typinganime .8s ease infinite;
-}
-
-@keyframes typinganime{
-  from{opacity:0}
-  to{opacity:1}
-} */
-
 .typing_input {
   background-color: black;
   color: #00FF00;
@@ -62,4 +46,3 @@ body {
   border : none;
   outline: none;
 }
-
