@@ -17,7 +17,7 @@ export class DynamicTableComponent implements AfterViewInit {
   enter_flg_4: boolean = false;
   enter_flg_5: boolean = false;
   enter_flg_err: boolean = false;
-  loop_count: number = 0;
+  loop_count: number = -1; //0だとloop_count==0の時しかフォーカスが当たらないため-1
   input_flg = false;
 
   constructor(
