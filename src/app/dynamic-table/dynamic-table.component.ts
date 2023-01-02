@@ -32,7 +32,10 @@ export class DynamicTableComponent implements AfterViewInit {
     document.getElementById("loop_focus_" + this.loop_count)!.focus();
   }
 
-  onEnter() {
+  onEnter(event: any) {
+    if (event.keyCode != 13) {
+      return;
+    }
     this.input_flg = true;
     this.appComponent.add_dynamic();
     if (this.select_number == "1") {

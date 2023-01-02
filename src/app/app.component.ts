@@ -33,7 +33,10 @@ export class AppComponent implements OnInit {
     this.factory = this.resolver.resolveComponentFactory(DynamicTableComponent);
   }
 
-  onEnter() {
+  onEnter(event: any) {
+    if (event.keyCode != 13) {
+      return;
+    }
     this.input_flg = true;
     if (this.select_number == "42") {
       document.location.href = "https://42tokyo.jp/";
