@@ -26,6 +26,7 @@ export class DynamicTableComponent implements AfterViewInit {
 
   async ngOnInit() {
     this.loop_count = await this.appComponent.loop_count;
+    window.scrollBy(0, 100);
   }
 
   ngAfterViewInit() {
