@@ -10,7 +10,6 @@ import { DynamicTableComponent } from './dynamic-table/dynamic-table.component';
 export class AppComponent implements OnInit {
   //画面メッセージ変数
   title: String = "YUDAI SHIMOMA PORTFOLIO SITE";
-  // title: String = "yudai shimoma portfolio site";
   options: String = "1,自己紹介 2,スキル 3,作品集 4,プライベート情報 5,お問い合わせ";
   err_meg: String = "番はありません。";
   question_meg: String = "何番を見ますか？番号を入力してください。";
