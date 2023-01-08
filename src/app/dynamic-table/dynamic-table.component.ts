@@ -19,7 +19,7 @@ export class DynamicTableComponent implements AfterViewInit {
   enter_flg_4: boolean = false;
   enter_flg_5: boolean = false;
   enter_flg_err: boolean = false;
-  input_flg = false;  //活性・非活性変数
+  input_flg: boolean = false;  //活性・非活性変数
   //動的コンポーネントに使用する変数
   loop_count: number = -1; //0だとloop_count==0の時しかフォーカスが当たらないため-1
 
