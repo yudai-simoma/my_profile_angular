@@ -3,6 +3,9 @@ body {
 	color: #00FF00;
     line-height: 1.2;
 }
+a {
+    color: #00FF00;
+}
 .Header1 {
 	position: fixed;
 	top: 1px;
