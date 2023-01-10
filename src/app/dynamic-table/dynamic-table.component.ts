@@ -53,10 +53,6 @@ export class DynamicTableComponent implements AfterViewInit {
     }
     //一度入力した欄は、非活性にする
     this.input_flg = true;
-    if (this.select_number == "42") {
-      document.location.href = "https://42tokyo.jp/";
-      return;
-    }
     //動的コンポーネント作成
     this.appComponent.add_dynamic();
     if (this.select_number == "1") {
@@ -77,6 +73,10 @@ export class DynamicTableComponent implements AfterViewInit {
     }
     if (this.select_number == "5") {
       this.enter_flg_5 = true;
+      return;
+    }
+    if (this.select_number == "42") {
+      document.location.href = "https://42tokyo.jp/";
       return;
     }
     if (this.select_number == "") {
