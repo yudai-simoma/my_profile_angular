@@ -5,7 +5,7 @@
 <body>
   <div class="top typing_animation">{{question_meg}}
     <input class="typing_input" type="text" id="first_focus" [(ngModel)]="select_number"
-        (keydown.enter)="onEnter($event)" required [disabled]="input_flg">
+        (keydown.enter)="onEnter($event)" required [disabled]="input_flg" maxlength="2">
   </div>
   <ng-container *ngIf="enter_flg_1">
       <app-profile></app-profile>

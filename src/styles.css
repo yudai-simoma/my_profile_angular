@@ -36,9 +36,6 @@ Header{
 .typing_input {
   background-color: black;
   color: #00FF00;
-  /* border-right: none;
-  border-left: none;
-  border-top: none; */
   border : none;
   outline: none;
 }
