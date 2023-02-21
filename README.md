@@ -1,3 +1,12 @@
+----------------------------------------------------------
+
+Angularの学習
+Angularを使用し、自己紹介サイトを作成
+
+公開URL：https://yudaishimoma.vercel.app/
+
+----------------------------------------------------------
+
 # MyProfileAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
