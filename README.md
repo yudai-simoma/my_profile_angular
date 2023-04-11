@@ -1,36 +1,17 @@
-----------------------------------------------------------
+# so_long
 
-Angularの学習
-Angularを使用し、自己紹介サイトを作成
+### 概要
+  * Angularを使用し、自己紹介サイトを作成
 
-公開URL：https://yudaishimoma.vercel.app/
+### 使用言語
+  * TypeScript
+  * Angular  
 
-----------------------------------------------------------
+### 公開URL
+  * https://yudaishimoma.vercel.app/
 
-# MyProfileAngular
+### 画面イメージ
+<img width="1508" alt="スクリーンショット 2023-04-11 21 35 26" src="https://user-images.githubusercontent.com/80208699/231164135-1bda41dc-5a15-43ec-bc29-3fe373bc7be2.png">
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### 動画イメージ
+https://user-images.githubusercontent.com/80208699/231164154-d9a13a08-3cde-4484-aeeb-d2fbd1a96f1d.mov
